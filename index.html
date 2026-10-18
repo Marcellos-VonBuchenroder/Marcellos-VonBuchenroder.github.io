@@ -261,7 +261,7 @@
       <div class="hero-card-divider"></div>
       <div>
         <div class="hero-card-label">Current Role</div>
-        <div class="hero-card-value">M&amp;E / IT Officer @ Indlela Mental Health</div>
+        <div class="hero-card-value">M&amp;E / IT Assistant &amp; Database Systems Developer @ Indlela Mental Health</div>
       </div>
       <div class="hero-card-divider"></div>
       <div>
@@ -309,8 +309,10 @@
     <div class="skill-card">
       <div class="skill-card-title">Frameworks &amp; Libraries</div>
       <div class="tag-list">
-        <span class="tag">.NET Framework</span>
+        <span class="tag">ASP.NET Core MVC (.NET 8)</span>
         <span class="tag">ASP.NET MVC</span>
+        <span class="tag">Entity Framework Core</span>
+        <span class="tag">Blazor</span>
         <span class="tag">React</span>
         <span class="tag">Node.js</span>
         <span class="tag">Express</span>
@@ -332,7 +334,9 @@
         <span class="tag">Docker</span>
         <span class="tag">GitHub</span>
         <span class="tag">REST APIs</span>
-        <span class="tag">Azure (deployment)</span>
+        <span class="tag">Azure Container Apps</span>
+        <span class="tag">AWS (ECR, ECS, CodePipeline)</span>
+        <span class="tag">Terraform</span>
       </div>
     </div>
     <div class="skill-card">
@@ -350,7 +354,7 @@
       <div class="tag-list">
         <span class="tag">CCNA Cybersecurity</span>
         <span class="tag">CCNA Networking</span>
-        <span class="tag">NMU Diploma (IT)</span>
+        <span class="tag">AWS Cloud Engineering (Codewrkx)</span>
       </div>
     </div>
   </div>
@@ -366,7 +370,7 @@
     <div class="project-card featured">
       <span class="project-badge">Production System</span>
       <div class="project-name">IMH UNITE — M&amp;E Database System</div>
-      <p class="project-desc">Full-stack monitoring &amp; evaluation platform built for a registered NPO. Includes learner/caregiver management, stakeholder tracking, indicator recording, dashboards with live charts, role-based access control across 18 permission keys, PDF report generation, and a document library. Deployed via Docker, with Azure deployment in progress.</p>
+      <p class="project-desc">Full-stack monitoring &amp; evaluation platform built for a registered NPO. Includes learner/caregiver management, stakeholder tracking, indicator recording, dashboards with live charts, role-based access control across 18 permission keys, PDF report generation, and a document library. Data migrated from Excel into a 13-table PostgreSQL database. Containerised with Docker and deployed on Azure Container Apps (South Africa North) for data residency.</p>
       <div class="project-stack">
         <span class="stack-tag">React</span>
         <span class="stack-tag">Node.js</span>
@@ -378,9 +382,33 @@
     </div>
 
     <div class="project-card">
+      <span class="project-badge live">Team Project</span>
+      <div class="project-name">HemaFlow — Haematology Lab Management System</div>
+      <p class="project-desc">Four-developer team project; I owned the Laboratory Manager subsystem. Test catalogue, consumable stock control with low-stock reorder alerts, supplier and order management, role-based authorisation, server-side validation (including a custom SA ID validator), activity log, dashboard and PDF reports.</p>
+      <div class="project-stack">
+        <span class="stack-tag">C#</span>
+        <span class="stack-tag">ASP.NET Core 8 MVC</span>
+        <span class="stack-tag">EF Core</span>
+        <span class="stack-tag">SQL Server</span>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <span class="project-badge live">Cloud / DevOps</span>
+      <div class="project-name"><a href="https://github.com/Marcellos-VonBuchenroder/claim-zero" target="_blank" rel="noopener" style="color:inherit">Claim Zero — React App to AWS with CI/CD</a></div>
+      <p class="project-desc">Containerised a React app with a multi-stage Docker build, provisioned ECS infrastructure on AWS with Terraform, and set up a GitHub &rarr; CodePipeline &rarr; ECR &rarr; ECS push-to-deploy pipeline. Built during the Codewrkx cloud engineering accelerator.</p>
+      <div class="project-stack">
+        <span class="stack-tag">Docker</span>
+        <span class="stack-tag">AWS</span>
+        <span class="stack-tag">Terraform</span>
+        <span class="stack-tag">CI/CD</span>
+      </div>
+    </div>
+
+    <div class="project-card">
       <span class="project-badge live">Academic Project</span>
       <div class="project-name">Fridge Management System</div>
-      <p class="project-desc">Full-stack application with customer and admin roles, role-based authentication, secure login, integrated payment processing, and full database management. Built end-to-end as part of integrated work learning.</p>
+      <p class="project-desc">Full-stack application with customer and admin roles, role-based authentication, secure login, integrated payment processing, and full database management. Built as my 2025 major project module at Nelson Mandela University.</p>
       <div class="project-stack">
         <span class="stack-tag">C#</span>
         <span class="stack-tag">ASP.NET MVC</span>
@@ -424,24 +452,16 @@
     <div class="timeline-item">
       <div class="timeline-date">Mar 2026 – Present</div>
       <div>
-        <div class="timeline-role">M&amp;E / IT Officer</div>
-        <div class="timeline-org">Indlela Mental Health — Port Elizabeth</div>
-        <p class="timeline-desc">Designed and built the organisation's full monitoring &amp; evaluation system from scratch. Manages data collection, validation, and analysis pipelines. Develops dashboards and visualisations for funder reporting. Provides Level 1–2 IT support and trains staff on digital tools.</p>
-      </div>
-    </div>
-    <div class="timeline-item">
-      <div class="timeline-date">Jan 2025 – Dec 2025</div>
-      <div>
-        <div class="timeline-role">Integrated Work Learning</div>
-        <div class="timeline-org">Nelson Mandela University — Port Elizabeth</div>
-        <p class="timeline-desc">Contributed to the development of a Fridge Management System as part of a structured industry placement. Applied full-stack development skills in a collaborative, real-world project setting.</p>
+        <div class="timeline-role">M&amp;E / IT Assistant &amp; Database Systems Developer</div>
+        <div class="timeline-org">Indlela Mental Health — Gqeberha</div>
+        <p class="timeline-desc">Designed and built the organisation's full monitoring &amp; evaluation system from scratch, migrated its data from Excel into PostgreSQL, and deployed it to Azure. Manages data collection, validation, and analysis pipelines. Develops dashboards and visualisations for funder reporting. Provides Level 1–2 IT support and trains staff on digital tools.</p>
       </div>
     </div>
     <div class="timeline-item">
       <div class="timeline-date">Nov 2024 – Feb 2026</div>
       <div>
         <div class="timeline-role">Driver / Logistics (Part-time)</div>
-        <div class="timeline-org">East Coast Agencies — Port Elizabeth</div>
+        <div class="timeline-org">East Coast Agencies — Gqeberha</div>
         <p class="timeline-desc">Managed stock checks, inventory handling, and client delivery coordination across multiple business locations.</p>
       </div>
     </div>
@@ -454,7 +474,7 @@
   <div class="section-label">Let's work together</div>
   <h2 class="section-title" style="text-align:center;">Get in Touch</h2>
   <div class="contact-box">
-    <p>Available for freelance projects — web apps, dashboards, CRUD systems, and data tools. Based in Port Elizabeth, working remotely.</p>
+    <p>Available for freelance projects — web apps, dashboards, CRUD systems, and data tools. Based in Gqeberha, working remotely.</p>
     <div class="contact-links">
       <a href="mailto:mvbdigitaldev@gmail.com" class="btn-primary">mvbdigitaldev@gmail.com</a>
       <a href="https://github.com/Marcellos-VonBuchenroder" target="_blank" class="btn-outline">GitHub</a>
